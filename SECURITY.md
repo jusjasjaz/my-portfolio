@@ -217,8 +217,8 @@ Contributors who report valid security vulnerabilities will be:
 For security concerns, contact:
 
 **Satya Subudhi**  
-📧 Email: [satyasubudhi089@gmail.com](mailto:satyasubudhi089@gmail.com)  
-🐙 GitHub: [@satya00089](https://github.com/satya00089)
+📧 Email: [jazminelean.dimagiba@gmail.com](mailto:jazminelean.dimagiba@gmail.com)  
+🐙 GitHub: [@jusjasjaz](https://www.linkedin.com/in/jazmine-lean-dimagiba/)
 
 ---
 

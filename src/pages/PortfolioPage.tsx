@@ -110,9 +110,9 @@ const PortfolioPage: React.FC = () => {
             Tell me about your project, or just say hi.
           </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)]">
+            {/* <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)]">
               <ContactForm />
-            </div>
+            </div> */}
 
             <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)] flex flex-col gap-4">
               <div>
@@ -125,7 +125,7 @@ const PortfolioPage: React.FC = () => {
               <div className="mt-2">
                 <div className="font-semibold">Quick contact</div>
                 <div className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Email: satyasubudhi089@gmail.com
+                  Email: jazminelean.dimagiba@gmail.com
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
                   Location: Remote

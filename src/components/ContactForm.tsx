@@ -4,7 +4,9 @@ type ContactState = { name: string; email: string; message: string };
 
 export const ContactForm: React.FC<{
   sendTo?: string; // recipient email address (optional; fallback to VITE_CONTACT_EMAIL)
-}> = ({ sendTo }) => {
+  senderName?: string;
+  senderEmail?: string;
+}> = ({ sendTo, senderName, senderEmail }) => {
   const [state, setState] = useState<ContactState>({
     name: "",
     email: "",
@@ -52,8 +54,10 @@ export const ContactForm: React.FC<{
         state.email
       }>`,
       html: false,
-      from_name: state.name || undefined,
-      from_email: state.email || undefined,
+      from_name: senderName || "Portfolio Contact",
+      from_email: senderEmail || DEFAULT_TO,
+      reply_to: state.email || undefined,
+      reply_to_name: state.name || undefined,
     };
 
     try {

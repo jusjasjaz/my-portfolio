@@ -7,23 +7,13 @@ export const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-6">
         {/* Left: message */}
         <div>
-          Designed &amp; coded with ☕ + ❤️ by{" "}
-          <span className="font-medium text-[var(--text)]">satya</span>
+          Jaz Portfolio 2026
         </div>
 
         {/* Right: social icons */}
         <div className="flex items-center gap-4">
           <a
-            href="https://www.kaggle.com/satyasubudhi"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Kaggle"
-            className="hover:text-[var(--text)] transition-colors"
-          >
-            <SiKaggle size={40} />
-          </a>
-          <a
-            href="https://github.com/satya00089"
+            href="https://github.com/jusjasjaz"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -32,7 +22,7 @@ export const Footer: React.FC = () => {
             <SiGithub size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/satya-subudhi/"
+            href="https://www.linkedin.com/in/jazmine-lean-dimagiba/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

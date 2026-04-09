@@ -72,6 +72,7 @@ export type Skill = {
     | "devops"
     | "tooling"
     | "database"
+    | "design"
     | "other";
   note?: string; // optional note e.g. "used at work since 2020"
 };
