@@ -217,7 +217,7 @@ export default function CLIResume({ open = false, onClose }: Props) {
               6,
             );
           }
-          await typeOut(`\nView role details: role <id>\n`);
+          await typeOut(`\nView role details: role <id> (eg: role jr-fe-developer)\n`);
           break;
         case "role": {
           const id = args[0];
