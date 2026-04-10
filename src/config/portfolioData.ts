@@ -21,7 +21,7 @@ export const PORTFOLIO_INFO: Portfolio = {
       "Junior Frontend Developer with 3 years of experience building responsive and user-friendly web applications. I work primarily with React Native and TypeScript, creating reusable components and improving performance and accessibility. I’m comfortable contributing to projects from design to deployment.",
     hero: {
       summary:
-        "Junior Frontend Developer (React, Angular, TypeScript). I build responsive and user-friendly interfaces, focusing on clean component structure, performance, and accessibility.",
+        "Junior Frontend Developer (React, Angular, TypeScript). I build responsive and user-friendly interfaces, focusing on clean component structure, performance, accessibility, and integrating REST APIs.",
     },
     contact: {
       email: "jazminelean.dimagiba@gmail.com",
