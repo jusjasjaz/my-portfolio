@@ -335,157 +335,21 @@ export const PORTFOLIO_INFO: Portfolio = {
   ],
   projects: [
     {
-      id: "learn-algo",
-      title: "Learn Algo",
+      id: "birthday-blow-candle",
+      title: "Birthday Blow Candle",
       description:
-        "Interactive visualizations that transform abstract concepts into intuitive understanding. Watch sorting, searching, and ML algorithms execute step-by-step.",
-      tags: ["Algorithms", "DSA", "ML", "AI", "Visualization", "Next.js"],
+        "Birthday Cakes with candles is a playful interaction where you can \"blow out\" candles on virtual cake using your real microphone.",
+      tags: ["HTML", "CSS", "JavaScript"],
       image:
-        "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpqYWFhbnBraWt3ZXhvajZsdjg5andyMGZzY2VibGg3bXE0MWxwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2PuPWxuLV1FGyh03Ja/giphy.gif",
-      href: "https://www.learn-algo.com",
+        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczc1cWk4dzh3ZWZlZHNiYmt5eng5YTZwcDRyeHNhdWs1NjZqeTV2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q3zpoqC8RI8FVqohrB/giphy.gif",
       links: [
         {
           label: "GitHub",
-          url: "https://github.com/satya00089/learn-algo",
+          url: "https://github.com/jusjasjaz/birthday-blow-candle",
           icon: "SiGithub",
         },
       ],
       isUnderDevelopment: false,
-    },
-    {
-      id: "landing-zone-orchestrator",
-      title: "Landing Zone Orchestrator",
-      description:
-        "A production-ready platform that transforms cloud infrastructure provisioning from manual IaC coding to an intuitive, form-driven workflow. Built with React, FastAPI, and MongoDB to generate validated Terraform templates for AWS, Azure, and GCP. Features include schema-driven form builder for VPC, Subnets, IAM, and networking resources, real-time Terraform code generation and validation, JWT-based authentication, MongoDB storage for projects and templates, and multi-cloud support.",
-      tags: [
-        "Terraform",
-        "IaC",
-        "React",
-        "FastAPI",
-        "MongoDB",
-        "AWS",
-        "Azure",
-        "Full Stack",
-      ],
-      image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGtuYjY1emtsZmNjMXp1czdrdXR5bXE5ZDJheHVvZjY1azZxYnJieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qzImRjQVb2OUI84mTt/giphy.gif",
-      href: "https://orchestrator.next-zen.dev",
-      links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/landing-zone-orchestrator-ui",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: true,
-    },
-    {
-      id: "diagrammatic",
-      title: "Diagrammatic",
-      description:
-        "Diagrammatic (System Design Playground): A component library and living documentation for a design system.",
-      tags: ["System Design", "AI & ML", "React"],
-      image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTFnOGF3d3BodjFvY3NhanY5cnl5bmd4Z243aXB5M3hrOHg3d2tmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WvzQektcJxs0oDFkHq/giphy.gif",
-      href: "https://diagrammatic.next-zen.dev",
-      links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/diagrammatic",
-          icon: "SiGithub",
-        },
-      ],
-    },
-    {
-      id: "tic-tac-toe-ai",
-      title: "Tic Tac Toe AI",
-      description:
-        "A minimal Tic-Tac-Toe AI game built with Next.js to understand the Minimax algorithm.",
-      tags: ["Next.js", "AI", "Game", "Minimax"],
-      image:
-        "https://raw.githubusercontent.com/satya00089/tic-tac-toe/main/public/tic-tac-toe.png",
-      href: "https://satya00089.github.io/tic-tac-toe/",
-      links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/tic-tac-toe",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: false,
-    },
-    {
-      id: "mui-color-wheel",
-      title: "MUI Color Wheel",
-      description:
-        "A Material-UI based color wheel component with real-time color picking.",
-      tags: ["React", "Material-UI", "NPM Package", "Storybook"],
-      image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJxYjhmdTVjam41aWlzczZreGZ2eXc5eThjdDRpMXgxYzVuYTAzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWnCyw4rmoFY8CmhLV/giphy.gif",
-      href: "https://mui-color-wheel.vercel.app/",
-      links: [
-        {
-          label: "Storybook",
-          url: "https://mui-color-wheel.vercel.app/",
-          icon: "SiStorybook",
-        },
-        {
-          label: "NPM",
-          url: "https://www.npmjs.com/package/mui-color-wheel",
-          icon: "SiNpm",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/mui-color-wheel",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: true,
-    },
-    {
-      id: "alochona",
-      title: "Alochona",
-      description:
-        "Alochona is an experimental chatbot hosted on Hugging Face Spaces. It uses OpenAI under the hood for responses. This project was built as a way to explore chatbot UIs, Hugging Face deployment, and integrating OpenAI APIs.",
-      image:
-        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmc5dDY1c2ZnOGs0ODF0eDkwbzBvMHZ2ZXJvYml2amRmdzN2dnZueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AFQj6uviWpwudbOWg/giphy.gif",
-      href: "https://huggingface.co/spaces/satya00089/alochona",
-      links: [
-        {
-          label: "Huggingface",
-          url: "https://huggingface.co/spaces/satya00089/alochona/tree/main",
-          icon: "SiHuggingface",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/alochona",
-          icon: "SiGithub",
-        },
-      ],
-      tags: ["Chatbot", "OpenAI", "Hugging Face", "Beginner Project"],
-    },
-    {
-      id: "night-sky",
-      title: "Night Skyline",
-      description:
-        "A breathtaking recreation of the city skyline under a starlit night sky, capturing the serene beauty and glowing atmosphere of the evening.",
-      tags: ["React", "CSS"],
-      image:
-        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2RjaHAxY3N3enY0d3RldWVpczg2ZTNzMHhsY2dpam0yYnp6bWh2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P2jddT5c9g9OeHI17p/giphy.gif",
-      href: "https://satya00089.github.io/night-sky",
-      links: [
-        {
-          label: "Watch",
-          url: "https://www.loom.com/share/1516014366e34135a67f5dd4e551fec5",
-          icon: "FaPlay",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/night-sky",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: true,
     },
   ],
   education: [
