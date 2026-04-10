@@ -110,9 +110,9 @@ const PortfolioPage: React.FC = () => {
             Tell me about your project, or just say hi.
           </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)]">
+            <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)]">
               <ContactForm />
-            </div> */}
+            </div>
 
             <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)] flex flex-col gap-4">
               <div>
