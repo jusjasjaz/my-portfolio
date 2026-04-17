@@ -1,4 +1,5 @@
 import type { Portfolio, TagColors } from "../types/portfolio";
+import smlOnlineConsultationCover from "../assets/images/sml-figma.png";
 
 export const PORTFOLIO_INFO: Portfolio = {
   meta: {
@@ -350,6 +351,22 @@ export const PORTFOLIO_INFO: Portfolio = {
         },
       ],
       isUnderDevelopment: false,
+    },
+    {
+      id: "sml-online-consultation",
+      title: "Share Mo Lang: Online mental health consultation",
+      description:
+        "A redesigned UI/UX capstone project—an online mental health platform connecting users with licensed therapists for accessible virtual consultations.",
+      tags: ["UI/UX Design"],
+      image: smlOnlineConsultationCover,
+      links: [
+        {
+          label: "Figma",
+          url: "https://www.figma.com/design/RSFCsEpjXOvW22rcK0aA5q/Share-Mo-Lang--Online-Mental-Health-Consultation?node-id=201-6&t=nbe8MNjUgwGQu8x4-1",
+          icon: "SiFigma",
+        },
+      ],
+      isUnderDevelopment: true,
     },
   ],
   education: [
