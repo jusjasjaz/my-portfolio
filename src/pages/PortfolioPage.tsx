@@ -5,7 +5,6 @@ import { ThemeProvider } from "../components/ThemeProvider";
 import { Header } from "../components/shared/Header";
 import { ProjectsGrid } from "../components/ProjectsGrid";
 import { SkillsList } from "../components/SkillsList";
-import { ContactForm } from "../components/ContactForm";
 import { Footer } from "../components/shared/Footer";
 import { PORTFOLIO_INFO } from "../config/portfolioData";
 import { About } from "../components/About";
@@ -22,6 +21,8 @@ const PortfolioPage: React.FC = () => {
   const [selected, setSelected] = useState<Project | null>(null);
   const [showCLI, setShowCLI] = useState(false);
   const [showHello, setShowHello] = useState(true);
+  const contactEmail =
+    PORTFOLIO_INFO.personal.contact?.email ?? "jazminelean.dimagiba@gmail.com";
 
   return (
     <ThemeProvider>
@@ -109,11 +110,7 @@ const PortfolioPage: React.FC = () => {
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
             Tell me about your project, or just say hi.
           </p>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)]">
-              <ContactForm />
-            </div>
-
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">        
             <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)] flex flex-col gap-4">
               <div>
                 <div className="font-semibold">Let's collaborate</div>
@@ -125,7 +122,7 @@ const PortfolioPage: React.FC = () => {
               <div className="mt-2">
                 <div className="font-semibold">Quick contact</div>
                 <div className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Email: jazminelean.dimagiba@gmail.com
+                  Email: {contactEmail}
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
                   Location: Remote
@@ -134,7 +131,7 @@ const PortfolioPage: React.FC = () => {
               <div className="mt-auto">
                 <div className="text-sm font-medium">Resume</div>
                 <a
-                  href="/"
+                  href={PORTFOLIO_INFO.meta?.pdf ?? "/resume.pdf"}
                   className="block mt-2 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700"
                 >
                   Download PDF

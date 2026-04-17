@@ -318,7 +318,7 @@ export const Resume: React.FC<{ className?: string }> = ({
       {/* Certifications */}
       {resumeInfo.certifications && resumeInfo.certifications.length > 0 && (
         <section>
-          <h2 className="text-base font-semibold mt-4">Certifications</h2>
+          <h2 className="text-base font-semibold mt-4">Certifications and Awards</h2>
           <ul className="text-sm list-disc list-inside">
             {resumeInfo.certifications.map((c) => (
               <li key={c.name}>

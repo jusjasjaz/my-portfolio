@@ -2,6 +2,7 @@ import { animate, motion } from "framer-motion";
 import { useMemo, useRef, useState, useLayoutEffect } from "react";
 import { PORTFOLIO_INFO } from "../config/portfolioData";
 import type { AvatarItem } from "../types/portfolio";
+import { Link } from "react-router-dom";
 
 // Senior-level hero: polished two-column layout with staggered entrances,
 // animated feature bullets, strong CTAs, and a floating avatar emblem.
@@ -305,13 +306,18 @@ export const About: React.FC = () => {
                 >
                   <a
                     href="#projects"
-                    className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-5 py-3 text-sm font-semibold shadow-lg hover:opacity-95"
+                    className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-5 py-3 text-sm font-semibold shadow-lg transition-all duration-200 hover:opacity-85 hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2"
                     onClick={(e) => onNavClick(e, "#projects")}
                     onKeyDown={(e) => handleKeyActivation(e, "#projects")}
                   >
                     See my work
                   </a>
-
+                  <Link
+                    to="/resume"
+                    className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-3 text-sm font-semibold text-foreground hover:bg-muted"
+                  >
+                    View background
+                  </Link>
                   <a
                     href="/resume.pdf"
                     className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-3 text-sm font-semibold text-foreground hover:bg-muted"

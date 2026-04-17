@@ -4,7 +4,7 @@ export const PORTFOLIO_INFO: Portfolio = {
   meta: {
     createdAt: new Date().toISOString(),
     locale: "en-US",
-    url: "https://satya00089.github.io/portfolio", // update if you have a custom domain
+    url: "https://jusjasjaz.github.io/portfolio", // update if you have a custom domain
     pdf: "/resume.pdf",
   },
   personal: {
@@ -27,7 +27,7 @@ export const PORTFOLIO_INFO: Portfolio = {
       email: "jazminelean.dimagiba@gmail.com",
       phone: "+63 9164 109 502",
       location: "Malolos, Bulacan",
-      website: "https://satya00089.github.io/portfolio",
+      website: "https://jusjasjaz.github.io/portfolio",
       socials: [
         {
           label: "LinkedIn",
@@ -354,37 +354,36 @@ export const PORTFOLIO_INFO: Portfolio = {
   ],
   education: [
     {
-      degree: "B.Tech in Computer Science Engineering",
-      school: "Biju Patnaik University of Technology",
+      degree: "Bachelor of Science in Information Technology",
+      school: "Bulacan State University (Main)",
+      date: "2019-2023",
+    },
+    {
+      degree: "Science, Technology, Engineering, and Mathematics (SHS)",
+      school: "Bulacan Ecumenical School",
+      date: "2017-2019",
+    },
+    {
+      degree: "Junior High School",
+       school: "Bulacan Ecumenical School",
       date: "2013-2017",
-    },
-    {
-      degree: "Higher Secondary",
-      school: "Bellaguntha Science College",
-      date: "2011-2013",
-    },
-    {
-      degree: "High School",
-      school: "G.T High School Bellaguntha",
-      date: "2011",
     },
   ],
   certifications: [
     {
-      name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
-      issuer: "Microsoft",
-      date: "2022",
-      url: "https://www.credly.com/badges/56ba404b-b2ec-49d7-b869-d41c8c88d7b5",
+      name: "Rookie of the Year 2026",
+      issuer: "Xentra Infotech Solutions",
+      date: "2025",
     },
     {
-      name: "Terraform Associate",
-      issuer: "HashiCorp",
+      name: "Cum laude",
+      issuer: "Bulacan State University",
       date: "2023",
     },
   ],
   extras: {
     languages: [{ name: "English", level: "Native" }],
-    interests: ["astronomy", "music"],
+    interests: ["games", "books", "music"],
   },
 };
 
