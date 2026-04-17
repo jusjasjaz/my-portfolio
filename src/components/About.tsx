@@ -152,11 +152,11 @@ export const About: React.FC = () => {
     springScrollTo(y);
   };
 
-  // const onNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-  //   if (!href.startsWith("#")) return; // allow default for external links
-  //   e.preventDefault();
-  //   navigateTo(href);
-  // };
+  const onNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (!href.startsWith("#")) return; // allow default for external links
+    e.preventDefault();
+    navigateTo(href);
+  };
 
   const handleKeyActivation = (
     e: React.KeyboardEvent<HTMLAnchorElement>,
@@ -304,17 +304,17 @@ export const About: React.FC = () => {
                   variants={item}
                   className="mt-8 flex flex-wrap gap-3"
                 >
-                  {/* <a
+                  <a
                     href="#projects"
                     className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-5 py-3 text-sm font-semibold shadow-lg transition-all duration-200 hover:opacity-85 hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2"
                     onClick={(e) => onNavClick(e, "#projects")}
                     onKeyDown={(e) => handleKeyActivation(e, "#projects")}
                   >
                     See my work
-                  </a> */}
+                  </a>
                   <Link
                     to="/resume"
-                    className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-5 py-3 text-sm font-semibold shadow-lg transition-all duration-200 hover:opacity-85 hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2"
+                    className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-3 text-sm font-semibold text-foreground hover:bg-muted"
                   >
                     View background
                   </Link>
