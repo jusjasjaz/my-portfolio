@@ -152,11 +152,11 @@ export const About: React.FC = () => {
     springScrollTo(y);
   };
 
-  const onNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (!href.startsWith("#")) return; // allow default for external links
-    e.preventDefault();
-    navigateTo(href);
-  };
+  // const onNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  //   if (!href.startsWith("#")) return; // allow default for external links
+  //   e.preventDefault();
+  //   navigateTo(href);
+  // };
 
   const handleKeyActivation = (
     e: React.KeyboardEvent<HTMLAnchorElement>,
