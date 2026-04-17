@@ -5,7 +5,7 @@ export const PORTFOLIO_INFO: Portfolio = {
   meta: {
     createdAt: new Date().toISOString(),
     locale: "en-US",
-    url: "https://jusjasjaz.github.io/portfolio", // update if you have a custom domain
+    url: "https://jusjasjaz.github.io/my-portfolio", // must match repo name + GitHub Pages path
     pdf: "/resume.pdf",
   },
   personal: {
@@ -28,7 +28,7 @@ export const PORTFOLIO_INFO: Portfolio = {
       email: "jazminelean.dimagiba@gmail.com",
       phone: "+63 9164 109 502",
       location: "Malolos, Bulacan",
-      website: "https://jusjasjaz.github.io/portfolio",
+      website: "https://jusjasjaz.github.io/my-portfolio",
       socials: [
         {
           label: "LinkedIn",
